@@ -1,0 +1,32 @@
+DM-weather-framework/
+├── README.md
+├── requirements.txt
+├── .gitignore
+│
+├── data/
+│   ├── raw/                  # fichiers .nc téléchargés (NON publiés)
+│   ├── processed/            # données nettoyées, réduites x4 (NON publiées)
+│   └── geo/
+│       └── dz.json           # frontières de l'Algérie (publié, 6 Mo)
+│
+├── src/                      # le code réutilisable
+│   ├── download_era5.py      # téléchargement 
+│   ├── merge_era5.py         # fusion, masque, réduction x4
+│   ├── features.py           # construction des variables (supervisé / clustering)
+│   ├── supervised.py         # KNN, SVM, RF, voting, AdaBoost
+│   ├── clustering.py         # K-Means, DBSCAN, AGNES, AutoEncoder-KMeans
+│   └── evaluation.py         # métriques et graphiques
+│
+├── notebooks/                # exploration et résultats, dans l'ordre
+│   ├── 01_eda.ipynb
+│   ├── 02_preprocessing.ipynb
+│   ├── 03_supervised.ipynb
+│   └── 04_clustering.ipynb
+│
+├── results/
+│   ├── figures/              # graphiques utilisés dans le rapport
+│   └── tables/               # scores en .csv
+│
+└── report/
+    ├── rapport.pdf (ou .docx)
+    └── references.bib        # n'oubliez pas la référence de 1996

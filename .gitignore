@@ -1,0 +1,7 @@
+#data/raw/
+#data/processed/
+#*.nc
+__pycache__/
+.ipynb_checkpoints/
+#.env
+#.venv/
