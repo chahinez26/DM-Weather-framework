@@ -1,7 +1,13 @@
-#data/raw/
-#data/processed/
-#*.nc
+# Python
 __pycache__/
 .ipynb_checkpoints/
-#.env
-#.venv/
+
+# Environnement virtuel
+DM_env/
+.venv/
+
+# Variables d'environnement
+.env
+
+# Exclure les données prétraitées
+data/processed/

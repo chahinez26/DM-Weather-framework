@@ -8,3 +8,5 @@ numpy
 matplotlib
 seaborn
 tensorflow    
+scikit-learn
+ipykernel
