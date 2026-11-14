@@ -11,3 +11,5 @@ DM_env/
 
 # Exclure les données prétraitées
 data/processed/
+
+results/models
