@@ -12,4 +12,6 @@ DM_env/
 # Exclure les données prétraitées
 data/processed/
 
-results/models
+results/supervised_models
+results/unsupervised_models
+results/models_ensemble

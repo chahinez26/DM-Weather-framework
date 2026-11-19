@@ -1,0 +1,8 @@
+modele,accuracy,macro_F1,F1_Low,F1_Medium,F1_High,temps_fit_s,temps_pred_s
+Baseline : classe majoritaire,0.3892,0.1868,0.0,0.5603,0.0,,
+Baseline : classe majoritaire par mois,0.8081,0.7728,0.6824,0.7428,0.8933,,
+KNN | train_complet,0.8896,0.8653,0.7938,0.8611,0.941,1.2,190.0
+SVM | train_complet,0.8993,0.8834,0.8395,0.8662,0.9445,90.8,454.5
+RF | train_complet,0.889,0.8693,0.8105,0.8604,0.9369,111.4,0.7
+Vote hard,0.8992,0.8807,0.8267,0.8712,0.9443,,
+Vote soft,0.901,0.8828,0.83,0.8753,0.9432,,
