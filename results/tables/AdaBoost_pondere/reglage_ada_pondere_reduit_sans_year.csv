@@ -1,0 +1,37 @@
+estimator,learning_rate,n_estimators,mean_test_macro_F1,std_test_macro_F1,mean_test_accuracy
+"DecisionTreeClassifier(max_depth=3, min_samples_leaf=5, random_state=42)",0.3,200,0.8683,0.0099,0.8793
+"DecisionTreeClassifier(max_depth=3, min_samples_leaf=5, random_state=42)",0.1,300,0.868,0.0114,0.8773
+"DecisionTreeClassifier(max_depth=3, min_samples_leaf=5, random_state=42)",0.3,300,0.8663,0.0107,0.8778
+"DecisionTreeClassifier(max_depth=3, min_samples_leaf=5, random_state=42)",0.3,100,0.8663,0.0094,0.8759
+"DecisionTreeClassifier(max_depth=3, min_samples_leaf=5, random_state=42)",0.1,200,0.8663,0.0102,0.8753
+"DecisionTreeClassifier(max_depth=3, min_samples_leaf=5, random_state=42)",0.1,100,0.8594,0.0106,0.8681
+"DecisionTreeClassifier(max_depth=3, min_samples_leaf=5, random_state=42)",0.03,300,0.8584,0.011,0.8663
+"DecisionTreeClassifier(max_depth=2, min_samples_leaf=5, random_state=42)",0.3,100,0.8545,0.007,0.8606
+"DecisionTreeClassifier(max_depth=2, min_samples_leaf=5, random_state=42)",0.3,200,0.8526,0.0039,0.8599
+"DecisionTreeClassifier(max_depth=3, min_samples_leaf=5, random_state=42)",0.03,200,0.8521,0.0097,0.8605
+"DecisionTreeClassifier(max_depth=2, min_samples_leaf=5, random_state=42)",0.3,300,0.8517,0.007,0.8586
+"DecisionTreeClassifier(max_depth=3, min_samples_leaf=5, random_state=42)",1.0,200,0.8497,0.0102,0.8619
+"DecisionTreeClassifier(max_depth=2, min_samples_leaf=5, random_state=42)",0.1,200,0.8477,0.0139,0.8538
+"DecisionTreeClassifier(max_depth=3, min_samples_leaf=5, random_state=42)",1.0,100,0.8475,0.0063,0.8598
+"DecisionTreeClassifier(max_depth=2, min_samples_leaf=5, random_state=42)",0.1,300,0.846,0.0148,0.8524
+"DecisionTreeClassifier(max_depth=3, min_samples_leaf=5, random_state=42)",1.0,300,0.8427,0.0072,0.8556
+"DecisionTreeClassifier(max_depth=2, min_samples_leaf=5, random_state=42)",1.0,100,0.8421,0.0088,0.8516
+"DecisionTreeClassifier(max_depth=2, min_samples_leaf=5, random_state=42)",1.0,200,0.84,0.0104,0.8491
+"DecisionTreeClassifier(max_depth=2, min_samples_leaf=5, random_state=42)",0.1,100,0.8337,0.0018,0.8387
+"DecisionTreeClassifier(max_depth=3, min_samples_leaf=5, random_state=42)",0.03,100,0.8324,0.0166,0.8424
+"DecisionTreeClassifier(max_depth=2, min_samples_leaf=5, random_state=42)",1.0,300,0.8318,0.0167,0.842
+"DecisionTreeClassifier(max_depth=1, random_state=42)",1.0,100,0.8313,0.0134,0.8424
+"DecisionTreeClassifier(max_depth=2, min_samples_leaf=5, random_state=42)",0.03,300,0.8307,0.0023,0.8361
+"DecisionTreeClassifier(max_depth=2, min_samples_leaf=5, random_state=42)",0.03,200,0.8249,0.0018,0.8314
+"DecisionTreeClassifier(max_depth=1, random_state=42)",1.0,200,0.8237,0.014,0.835
+"DecisionTreeClassifier(max_depth=1, random_state=42)",0.3,300,0.8217,0.0186,0.8341
+"DecisionTreeClassifier(max_depth=1, random_state=42)",0.3,200,0.8164,0.0139,0.8301
+"DecisionTreeClassifier(max_depth=1, random_state=42)",1.0,300,0.8145,0.0247,0.8257
+"DecisionTreeClassifier(max_depth=2, min_samples_leaf=5, random_state=42)",0.03,100,0.8096,0.0049,0.8193
+"DecisionTreeClassifier(max_depth=1, random_state=42)",0.3,100,0.8044,0.0216,0.8152
+"DecisionTreeClassifier(max_depth=1, random_state=42)",0.1,300,0.7965,0.0221,0.8072
+"DecisionTreeClassifier(max_depth=1, random_state=42)",0.1,200,0.7796,0.0222,0.7927
+"DecisionTreeClassifier(max_depth=1, random_state=42)",0.1,100,0.7626,0.0249,0.7742
+"DecisionTreeClassifier(max_depth=1, random_state=42)",0.03,300,0.7275,0.0144,0.7418
+"DecisionTreeClassifier(max_depth=1, random_state=42)",0.03,200,0.6818,0.0381,0.7006
+"DecisionTreeClassifier(max_depth=1, random_state=42)",0.03,100,0.5473,0.0153,0.5986

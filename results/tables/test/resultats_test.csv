@@ -1,27 +1,23 @@
 modele,config,donnees,accuracy,macro_F1,macro_F1_validation,F1_Low,F1_Medium,F1_High,temps_fit_s,temps_pred_s
 Baseline : classe majoritaire,,,0.3892,0.1868,,0.0,0.5603,0.0,,
 Baseline : classe majoritaire par mois,,,0.8081,0.7728,,0.6824,0.7428,0.8933,,
-knn_echantillon | complet,complet,echantillon,0.8738,0.8463,0.8189,0.7657,0.8427,0.9305,0.1,25.2
-knn_train_complet | complet,complet,train_complet,0.8774,0.858,0.8189,0.8015,0.847,0.9256,1.7,194.8
-rf_echantillon | complet,complet,echantillon,0.8829,0.8648,0.8549,0.8105,0.8519,0.9319,4.2,0.6
-rf_train_complet | complet,complet,train_complet,0.8787,0.8578,0.8549,0.7934,0.8511,0.9287,104.9,0.7
-svm_echantillon | complet,complet,echantillon,0.874,0.8628,0.821,0.83,0.843,0.9154,9.5,95.5
-svm_train_complet | complet,complet,train_complet,0.8665,0.8573,0.821,0.8303,0.836,0.9055,122.0,289.0
-knn_echantillon | complet_sans_year,complet_sans_year,echantillon,0.8937,0.8733,0.8377,0.8153,0.8665,0.9382,0.1,10.8
-knn_train_complet | complet_sans_year,complet_sans_year,train_complet,0.8916,0.8675,0.8377,0.7968,0.8636,0.9421,1.3,188.6
-rf_echantillon | complet_sans_year,complet_sans_year,echantillon,0.8833,0.8657,0.8661,0.8149,0.8496,0.9325,3.4,0.5
-rf_train_complet | complet_sans_year,complet_sans_year,train_complet,0.879,0.8598,0.8661,0.804,0.8423,0.9331,83.3,0.4
-svm_echantillon | complet_sans_year,complet_sans_year,echantillon,0.8995,0.8857,0.8653,0.8474,0.8686,0.9411,6.9,75.9
-svm_train_complet | complet_sans_year,complet_sans_year,train_complet,0.9013,0.8857,0.8653,0.8423,0.8693,0.9455,102.2,237.7
-knn_echantillon | reduit,reduit,echantillon,0.8724,0.8464,0.8186,0.7701,0.8418,0.9273,0.1,24.1
-knn_train_complet | reduit,reduit,train_complet,0.876,0.8581,0.8186,0.8058,0.8462,0.9224,1.4,192.7
-rf_echantillon | reduit,reduit,echantillon,0.8812,0.864,0.8564,0.8122,0.8507,0.9292,3.6,0.5
-rf_train_complet | reduit,reduit,train_complet,0.8752,0.8552,0.8564,0.7935,0.8483,0.9238,103.3,0.6
-svm_echantillon | reduit,reduit,echantillon,0.8611,0.8542,0.8097,0.8343,0.8305,0.8977,7.7,93.4
-svm_train_complet | reduit,reduit,train_complet,0.8446,0.8371,0.8097,0.8142,0.8117,0.8853,103.2,271.3
-knn_echantillon | reduit_sans_year,reduit_sans_year,echantillon,0.8957,0.8759,0.841,0.8194,0.8689,0.9393,0.1,10.6
-knn_train_complet | reduit_sans_year,reduit_sans_year,train_complet,0.8896,0.8653,0.841,0.7938,0.8611,0.941,1.2,190.3
-rf_echantillon | reduit_sans_year,reduit_sans_year,echantillon,0.8908,0.871,0.8698,0.8126,0.8644,0.9361,3.9,0.6
-rf_train_complet | reduit_sans_year,reduit_sans_year,train_complet,0.889,0.8693,0.8698,0.8105,0.8604,0.9369,111.4,0.7
-svm_echantillon | reduit_sans_year,reduit_sans_year,echantillon,0.8995,0.886,0.8644,0.8485,0.8688,0.9406,6.8,84.4
-svm_train_complet | reduit_sans_year,reduit_sans_year,train_complet,0.8993,0.8834,0.8644,0.8395,0.8662,0.9445,90.8,237.2
+ada_echantillon | complet,complet,echantillon,0.873,0.8528,0.8511,0.7959,0.841,0.9216,21.4,2.2
+ada_pondere_echantillon | complet,complet,echantillon,0.8766,0.8571,0.8441,0.799,0.8453,0.9272,43.5,5.6
+ada_train_complet | complet,complet,train_complet,0.8734,0.8525,0.8511,0.7936,0.8421,0.922,632.8,2.6
+rf_echantillon | complet,complet,echantillon,0.8829,0.8648,0.8549,0.8105,0.8519,0.9319,3.6,0.4
+rf_train_complet | complet,complet,train_complet,0.8787,0.8578,0.8549,0.7934,0.8511,0.9287,101.6,0.4
+ada_echantillon | complet_sans_year,complet_sans_year,echantillon,0.8844,0.868,0.8697,0.8203,0.8559,0.9277,20.5,2.6
+ada_pondere_echantillon | complet_sans_year,complet_sans_year,echantillon,0.8793,0.8603,0.8694,0.8052,0.8441,0.9316,65.3,8.1
+ada_train_complet | complet_sans_year,complet_sans_year,train_complet,0.888,0.8697,0.8697,0.8156,0.8616,0.932,628.0,2.6
+rf_echantillon | complet_sans_year,complet_sans_year,echantillon,0.8833,0.8657,0.8661,0.8149,0.8496,0.9325,3.4,0.4
+rf_train_complet | complet_sans_year,complet_sans_year,train_complet,0.879,0.8598,0.8661,0.804,0.8423,0.9331,80.4,0.3
+ada_echantillon | reduit,reduit,echantillon,0.8744,0.854,0.8509,0.7967,0.8434,0.9221,18.8,2.7
+ada_pondere_echantillon | reduit,reduit,echantillon,0.8778,0.8586,0.8442,0.8015,0.8472,0.9272,41.9,5.0
+ada_train_complet | reduit,reduit,train_complet,0.8725,0.8511,0.8509,0.7905,0.8407,0.9221,590.4,2.3
+rf_echantillon | reduit,reduit,echantillon,0.8812,0.864,0.8564,0.8122,0.8507,0.9292,3.6,0.7
+rf_train_complet | reduit,reduit,train_complet,0.8752,0.8552,0.8564,0.7935,0.8483,0.9238,101.7,1.3
+ada_echantillon | reduit_sans_year,reduit_sans_year,echantillon,0.8871,0.8692,0.8693,0.8172,0.859,0.9315,57.2,8.5
+ada_pondere_echantillon | reduit_sans_year,reduit_sans_year,echantillon,0.8832,0.8648,0.8683,0.8119,0.8502,0.9322,40.5,5.9
+ada_train_complet | reduit_sans_year,reduit_sans_year,train_complet,0.8866,0.8685,0.8693,0.816,0.8583,0.9314,1706.8,11.1
+rf_echantillon | reduit_sans_year,reduit_sans_year,echantillon,0.8908,0.871,0.8698,0.8126,0.8644,0.9361,4.0,0.8
+rf_train_complet | reduit_sans_year,reduit_sans_year,train_complet,0.889,0.8693,0.8698,0.8105,0.8604,0.9369,112.8,1.1
