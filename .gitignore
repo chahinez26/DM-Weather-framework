@@ -15,3 +15,5 @@ data/processed/
 results/supervised_models
 results/unsupervised_models
 results/models_ensemble
+results/models
+results/predictions_test
